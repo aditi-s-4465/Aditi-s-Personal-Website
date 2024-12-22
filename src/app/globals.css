@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #04071d;
+  --foreground: #ffffff;
+
+}
+@font-face {
+  font-family: 'pixel-sans';
+  src: url(./fonts/CyberpunkWaifus.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'pixel-serif';
+  src: url(./fonts/calamity.ttf) format('truetype');
+}
+.full-container {
+  background-image: url('./media/rain.gif');
+  background-repeat: repeat-x;     /* Repeat horizontally */
+  background-size: auto 110%;      /* Scale the gif to cover 100% height of the container */
+  background-position: center;     /* Keep the gif centered horizontally */
+  width: 100%;
+  height: 100vh;                   /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;      
+}
+.window-container {
+  background-image: url('./media/windowframe.png');
+  background-repeat: repeat-x;     /* Repeat horizontally */
+  background-size: auto 120%;      /* Scale the gif to cover 100% height of the container */
+  background-position: center;     /* Keep the gif centered horizontally */
+  width: 100%;
+  height: 100vh;                   /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;   
+  border: 3vh solid #422910;
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'pixel-sans','pixel-serif'
+}

@@ -1,0 +1,61 @@
+.pixel-door {
+    position: relative; 
+    display: flex; 
+    width: 80%; 
+    height: 100vh; 
+    background: url(../../media/woodgrain.png);
+  
+    background-size: 100% 100%;
+    border-right: 8px #4f361a;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.3); 
+    margin-left: 0;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .pixel-door-sign {
+    width: 80vh;              
+    height: 50vh;             /* Height of the door sign */
+    background-color: #4d2c1f; /* Dark wood color for the sign */
+    border: 5px solid #2a1a0a;  /* Dark brown border for the "door" frame */
+    display: flex;
+    justify-content: center;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-family: 'pixel-sans'; /* Pixelated font */
+    font-size: 7.5vh;
+    padding-inline: 3vh;
+    flex-direction: column;
+
+  }
+  @media (max-width: 768px) {
+    .pixel-door {
+        width: 90%; /* Increase the door's width on smaller screens */
+        height: 100vh; /* Reduce the height to fit mobile screens */
+    }
+
+    .pixel-door-sign {
+        width: 90%; /* Make the sign width responsive */
+        height: auto; /* Let the height adjust based on the content */
+        font-size: 8dv; /* Adjust text size based on viewport width */
+        padding-inline: 5vw; /* Increase padding for smaller devices */
+    }
+}
+
+/* On even smaller screens (like phones), further adjustments */
+@media (max-width: 480px) {
+    .pixel-door {
+        width: 95%; /* Increase the width to fit smaller screens */
+        height: 100vh; /* Further reduce the height */
+    }
+
+    .pixel-door-sign {
+        width: 95%; /* Ensure the sign fits the smaller screen */
+        height: auto; /* Allow the height to be content-based */
+        font-size: 12vw; /* Adjust text size for mobile devices */
+        padding-inline: 8vw; /* Increase padding for small screens */
+    }
+}
+  
