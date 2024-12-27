@@ -23,7 +23,6 @@ function Menu() {
                             <p className="menu-description">{description}</p>
                         </div>
                         
-                        
                         ))}
             </div>
         </div>
