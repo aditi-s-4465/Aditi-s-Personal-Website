@@ -27,21 +27,138 @@
   align-items: center;
   color: white;      
 }
-.window-container {
-  background-image: url('./media/windowframe.png');
-  background-repeat: repeat-x;     /* Repeat horizontally */
+.brick-container {
+  background-image: url('./media/brick.png');
   background-size: auto 120%;      /* Scale the gif to cover 100% height of the container */
+  width: 100%;
+  height: 100%;                   /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;      
+}
+.beam-container {
+  background-image: url('./media/beam.png');
+  background-repeat: repeat-x;     /* Repeat horizontally */
+  background-size: auto 130%;      /* Scale the gif to cover 100% height of the container */
   background-position: center;     /* Keep the gif centered horizontally */
   width: 100%;
   height: 100vh;                   /* Full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;  
+  flex-direction: column;
+}
+.window-container {
+  background-image: url('./media/windowframe.png');
+  background-repeat: repeat-x;     /* Repeat horizontally */
+  background-size: auto 120%;      /* Scale the gif to cover 100% height of the container */
+  background-position: center;     /* Keep the gif centered horizontally */
+  width: 100%;
+  height: 100%;                   /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;   
-  border: 3vh solid #422910;
+  border: 2vh solid #a96a2b;
+}
+.outer-container {
+  border: 2vh solid #422910;
+  width: 100%;
+  height: 100%;  
+  background-color : transparent;
+}
+
+.pixel-title {
+  font-size: 2.25rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+  color: #d7ccc8; 
+}
+.pixel-body {
+  font-size: 1.25rem;
+  font-family: 'pixel-serif';
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+  color: #d7ccc8; 
+}
+
+.pixel-coffee-container {
+  background-color: #3e2723; 
+  border: 4px solid #2e1c19; 
+  box-shadow: 4px 4px 0 #2e1c19, 8px 8px 0 #1b110f; 
+  width: auto;
+  max-width: 700px;
+  max-height: 60vh;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 8px;
+}
+.align-left {
+  width: 100%;
+  height: 100%;   
+  /* align-items: left;
+  justify-items: left;
+  position: relative;
+  padding-right: 40vh;
+  padding-left: 6vh;
+  padding-top: 6vh ; */
 }
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'pixel-sans','pixel-serif'
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* enter the content vertically */
+  width: 100%; /* Ensure it takes up full width */
+  height: auto; /* Adjust height based on content */
+  padding-right: 10%;
+}
+
+@media (max-width: 800px) {
+  .align-left {
+    padding-right: 5%; /* Adjust padding for narrower screens */
+    padding-left: 5%;  /* Adjust padding for narrower screens */
+    padding-top: 5%;
+  }
+
+  .pixel-coffee-container {
+    max-width: 90%; /* Use more space on narrow screens */
+    max-height: none; /* Remove height constraint for readability */
+    padding: 12px; /* Adjust padding for smaller screens */
+  }
+
+  .pixel-title {
+    font-size: 2rem; /* Slightly smaller font for titles */
+  }
+
+  .pixel-body {
+    font-size: 1rem; /* Reduce font size slightly */
+  }
+}
+
+@media (max-width: 480px) {
+  .align-left {
+    padding-right: 3%; /* Further adjust padding for very small screens */
+    padding-left: 3%;  /* Further adjust padding for very small screens */
+    padding-top: 3%;
+  }
+
+  .pixel-coffee-container {
+    max-width: 95%; /* Use full width for very narrow screens */
+    padding: 8px; /* Further reduce padding */
+  }
+
+  .pixel-title {
+    font-size: 1.5rem; /* Smaller title for very narrow screens */
+  }
+
+  .pixel-body {
+    font-size: 1rem; /* Adjust font size for readability */
+  }
 }

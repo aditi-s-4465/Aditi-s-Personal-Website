@@ -1,0 +1,15 @@
+.transparent-container {
+    width: 90vw;
+    height: 60vh;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.transparent-title {
+    width: 15vw;
+    height: 8vh;
+    border: 4px  rgba(62, 39, 35,0.7); 
+    box-shadow: 4px 4px 0 #2e1c19, 8px 8px rgba(27,17,15,0.7); 
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #3e2723; 
+}
