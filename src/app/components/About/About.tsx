@@ -1,8 +1,14 @@
 import './About.css';
 import Image from 'next/image';
 import aditi from './aditi.png';
+import { RefObject } from 'react';
 
-function About({refprops}) {
+
+interface AboutProps {
+  refprops: RefObject<HTMLElement>;
+}
+
+function About({ refprops }: AboutProps) {
     return (
     <section ref = {refprops}>
       <div className='full-container'>
