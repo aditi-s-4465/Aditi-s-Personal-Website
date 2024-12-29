@@ -1,7 +1,7 @@
 import './Menu.css';
 
 const menuItems = [
-    ["Rhythmic React", "Play the perfect music for your workout. Lead a team to develop, design and implement an app that chooses music to play based on real time user movement speeds."],
+    ["Rhythmic React", "Play the perfect music for your workout. I lead a team to develop, design and implement an app that chooses music to play based on real time user movement speeds."],
     ["Spaced Out", "Check up on and find study spots on campus. I worked with a team to develop, design, prototype and implement a mobile-friendly web app which takes real time data about campus to help students find the perfect place to study."],
     ["Ethicash", "Find the perfect stocks for you to invest in based on causes you care about. I designed and implemented the frontend for a web-app that let users find and create investment portfolios that aligned with causes they care about. "],
     ["Melodic Eyes", "Adding another dimension to art by playing chords based on where a user is looking. I designed and helped implement a frontend that would work with a mouse as well as an eyetracker"],

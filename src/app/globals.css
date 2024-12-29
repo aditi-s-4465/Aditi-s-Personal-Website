@@ -30,6 +30,18 @@
 .brick-container {
   background-image: url('./media/brick.png');
   background-size: auto 120%;      
+  width: 100vw;
+  height: 100vh;                  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;      
+  border: 4px solid #000000; 
+}
+
+.pinboard-container {
+  background-image: url('./media/pinboard.png');
+  background-size: auto 100%;      
   width: 100%;
   height: 100%;                  
   display: flex;
@@ -37,6 +49,7 @@
   align-items: center;
   color: white;      
 }
+
 .beam-container {
   background-image: url('./media/beam.png');
   background-repeat: repeat-x;    

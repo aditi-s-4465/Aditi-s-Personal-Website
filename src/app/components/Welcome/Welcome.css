@@ -31,10 +31,15 @@
     flex-direction: column;
 
   }
+.welcome-color {
+    color: #d7af49;
+    text-shadow: 0 0 3px #ffffff
+}
   @media (max-width: 768px) {
     .pixel-door {
         width: 90%; 
         height: 100vh; 
+        
     }
 
     .pixel-door-sign {
@@ -59,4 +64,5 @@
         padding-inline: 8vw; 
     }
 }
+
   
