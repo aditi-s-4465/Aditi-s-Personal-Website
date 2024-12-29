@@ -1,6 +1,10 @@
 import './Welcome.css';
 
-function Welcome({scrollCallback}) {
+interface WelcomeProps {
+  scrollCallback: () => void;
+}
+
+function Welcome({ scrollCallback }: WelcomeProps) {
     return (
       <div className="full-container">
         <div className="pixel-door">

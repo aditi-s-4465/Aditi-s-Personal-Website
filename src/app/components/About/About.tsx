@@ -5,7 +5,7 @@ import { RefObject } from 'react';
 
 
 interface AboutProps {
-  refprops: RefObject<HTMLElement>;
+  refprops: RefObject<HTMLElement|null>;
 }
 
 function About({ refprops }: AboutProps) {
