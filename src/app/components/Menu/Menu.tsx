@@ -14,7 +14,7 @@ function Menu() {
       <div className="brick-container">
         <div className='beam-container'>
             <div className='transparent-title '>
-                <div className='pixel-title'><b>A Curated Menu</b> <p>(Some Projects I've Worked On)</p></div>
+                <div className='pixel-title'><b>A Curated Menu</b> <p>(Some Projects I&apos;ve Worked On)</p></div>
             </div>
             <div className='transparent-container'>
             {menuItems.map(([title, description], index) => (

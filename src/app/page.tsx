@@ -1,5 +1,5 @@
 'use client';
-import { useRef, useEffect } from "react";
+import { useRef} from "react";
 import Welcome from './components/Welcome/Welcome';
 import About from "./components/About/About";
 import Menu from "./components/Menu/Menu";
