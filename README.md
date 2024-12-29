@@ -35,5 +35,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
 
+##Aditi's Personal Website###
+Tech Stack: TypeScript, Next.js
+
+###Asset/Font Credits###
+rain gif from [gifer](https://gifer.com/en/2ii5)
+calamity font by [doph on fontstruct.com](https://fontstruct.com/fontstructors/2159376/doph)
+CyberpunkWaifus font by [Isaac B.](https://www.dafont.com/isaac-b.d9896)
+all other assests and backgrounds were created using the drawing tool on [pixelart.com](https://www.pixilart.com/)
 
 WIP, check back in in a bit :> - Aditi
